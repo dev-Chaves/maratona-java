@@ -1,6 +1,6 @@
-package academy.devdojo.maratonaJava.introducao.test;
+package academy.devdojo.maratonajava.introducao.test;
 
-import academy.devdojo.maratonaJava.introducao.dominio.Estudante;
+import academy.devdojo.maratonajava.introducao.dominio.Estudante;
 
 public class PessoaTest {
     public static void main(String[] args){

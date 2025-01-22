@@ -1,4 +1,4 @@
-package academy.devdojo.maratonaJava.introducao.dominio;
+package academy.devdojo.maratonajava.introducao.dominio;
 
 public class imprimeEstudante {
     public void(){

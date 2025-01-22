@@ -1,6 +1,6 @@
-package academy.devdojo.maratonaJava.poo.teste;
+package academy.devdojo.maratonajava.poo.teste;
 
-import academy.devdojo.maratonaJava.poo.dominio.Estudante;
+import academy.devdojo.maratonajava.poo.dominio.Estudante;
 
 public class EstudanteAula1 {public static void main(String[] args){
 

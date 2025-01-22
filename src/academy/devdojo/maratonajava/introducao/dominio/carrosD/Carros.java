@@ -1,4 +1,4 @@
-package academy.devdojo.maratonaJava.introducao.dominio.carrosD;
+package academy.devdojo.maratonajava.introducao.dominio.carrosD;
 
 public class Carros {
     public String nome;
