@@ -4,7 +4,7 @@ public class Anime {
     private String nome;
     private int[] episdodios;
     {
-
+        System.out.println("Teste");
     }
 
      public Anime(String nome ){
