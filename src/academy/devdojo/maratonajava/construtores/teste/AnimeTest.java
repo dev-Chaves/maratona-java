@@ -1,13 +1,13 @@
 package academy.devdojo.maratonajava.construtores.teste;
 
-import academy.devdojo.maratonajava.PooCore.sobrecargaMetodo.dominio.Anime;
+import academy.devdojo.maratonajava.construtores.dominio.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {
 
-        Anime anime = new Anime("Naruto");
+        Anime anime = new Anime("Naruto", "Ação", 777);
 
-        anime.init("HXH", "TV", 20);
+//        anime.init("HXH", "TV", 20);
 
         anime.imprimiInfo();
 
