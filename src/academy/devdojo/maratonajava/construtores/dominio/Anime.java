@@ -1,14 +1,9 @@
-package academy.devdojo.maratonajava.PooCore.sobrecargaMetodo.dominio;
+package academy.devdojo.maratonajava.construtores.dominio;
 
 public class Anime {
     private String tipo;
     private int episodios;
     private String nome;
-
-
-    public Anime(){
-
-    }
 
     public void init(String nome, String tipo, int episodios){
         this.nome = nome;
