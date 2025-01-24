@@ -3,14 +3,17 @@ package academy.devdojo.maratonajava.Associacao.dominio;
 public class Jogador {
     private String name;
 
-    private String time;
+    private Time time;
 
     public Jogador(String name) {
         this.name = name;
     }
 
     public void imprimi (){
-        System.out.println(this.name);
+        if (time != null){
+            System.out.println(this.name);
+            System.out.println(time.getName());
+        } else System.out.println("Declare um Time!");
     }
 
     public String getName() {
@@ -21,11 +24,11 @@ public class Jogador {
         this.name = name;
     }
 
-    public String getTime() {
+    public Time getTime() {
         return time;
     }
 
-    public void setTime(String time) {
+    public void setTime(Time time) {
         this.time = time;
     }
 }

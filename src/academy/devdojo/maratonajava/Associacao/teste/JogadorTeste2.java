@@ -9,5 +9,7 @@ public class JogadorTeste2 {
         Time time1 = new Time("Santos");
 
         jogador1.setTime(time1);
+
+        jogador1.imprimi();
     }
 }
