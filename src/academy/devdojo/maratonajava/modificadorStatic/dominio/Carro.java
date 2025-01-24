@@ -5,8 +5,8 @@ public class Carro {
     private double velocidadeMaxima;
     private static double velocidadeLimite = 250;
 
-    public Carro(String nome, double velocidadeMaxima){
-        if (velocidadeMaxima < 0 || velocidadeLimite < 0){
+    public Carro(String nome, double velocidadeMaxima) {
+        if (velocidadeMaxima < 0 || velocidadeLimite < 0) {
             System.out.println("Velocidade Inválida");
             return;
         }
@@ -15,11 +15,19 @@ public class Carro {
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
-    public void imprimi(){
+    public static void setVelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    public static double getVelocidade() {
+        return Carro.velocidadeLimite;
+    }
+
+    public void imprimi() {
         System.out.println(this.nome);
-        System.out.print("Velocidade Máxima:  "+this.velocidadeMaxima);
+        System.out.print("Velocidade Máxima:  " + this.velocidadeMaxima);
         System.out.println();
-        System.out.print("Velocidade Limite: "+Carro.velocidadeLimite);
+        System.out.print("Velocidade Limite: " + Carro.velocidadeLimite);
         System.out.println();
         System.out.println("______________________");
     }
@@ -42,9 +50,5 @@ public class Carro {
 
     public double getVelocidadeLimite() {
         return velocidadeLimite;
-    }
-
-    public void setVelocidadeLimite(double velocidadeLimite) {
-        Carro.velocidadeLimite = velocidadeLimite;
     }
 }
