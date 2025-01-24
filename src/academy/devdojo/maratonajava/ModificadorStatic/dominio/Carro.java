@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.modificadorStatic.dominio;
+package academy.devdojo.maratonajava.ModificadorStatic.dominio;
 
 public class Carro {
     private String nome;
@@ -52,3 +52,4 @@ public class Carro {
         return velocidadeLimite;
     }
 }
+

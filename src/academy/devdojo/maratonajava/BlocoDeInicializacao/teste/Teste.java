@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.blocoDeInicializacao.teste;
+package academy.devdojo.maratonajava.BlocoDeInicializacao.teste;
 
-import academy.devdojo.maratonajava.blocoDeInicializacao.dominio.Anime;
+import academy.devdojo.maratonajava.BlocoDeInicializacao.dominio.Anime;
 
 public class Teste {
     public static void main(String[] args){

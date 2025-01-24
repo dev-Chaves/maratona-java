@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.modificadorStatic.teste;
+package academy.devdojo.maratonajava.ModificadorStatic.teste;
 
-import academy.devdojo.maratonajava.modificadorStatic.dominio.Carro;
+import academy.devdojo.maratonajava.ModificadorStatic.dominio.Carro;
 
 public class CarroTeste {
     public static void main(String[] args){

@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.construtores.teste;
+package academy.devdojo.maratonajava.Construtores.teste;
 
-import academy.devdojo.maratonajava.construtores.dominio.Anime;
+import academy.devdojo.maratonajava.Construtores.dominio.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

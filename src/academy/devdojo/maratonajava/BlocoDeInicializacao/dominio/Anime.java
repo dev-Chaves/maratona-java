@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.blocoDeInicializacao.dominio;
+package academy.devdojo.maratonajava.BlocoDeInicializacao.dominio;
 
 public class Anime {
     private String nome;
