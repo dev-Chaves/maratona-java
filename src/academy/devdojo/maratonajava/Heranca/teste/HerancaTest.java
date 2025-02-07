@@ -5,7 +5,7 @@ import academy.devdojo.maratonajava.Heranca.domain.Pessoa;
 
 public class HerancaTest {
     public static void main(String[] args) {
-        Endereco endereco = new Endereco();
+        Endereco endereco = new Endereco("C", "12341");
 
         endereco.setCep("27313280");
         endereco.setRua("Rua A");
