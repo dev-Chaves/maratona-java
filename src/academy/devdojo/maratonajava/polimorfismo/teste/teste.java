@@ -1,7 +1,8 @@
-package academy.devdojo.maratonajava.polimorfismo;
+package academy.devdojo.maratonajava.polimorfismo.teste;
 
 import academy.devdojo.maratonajava.polimorfismo.domain.Computador;
 import academy.devdojo.maratonajava.polimorfismo.domain.Tomate;
+import academy.devdojo.maratonajava.polimorfismo.service.CalculaImposto;
 
 public class teste {
     public static void main(String[] args) {
@@ -9,7 +10,9 @@ public class teste {
 
         Tomate tomate1 = new Tomate("Tomate do fortnite", 10L);
 
-        
+        CalculaImposto.calcularImpostoComputador(computador1);
+
+        CalculaImposto.calcularImpostoTomate(tomate1);
 
 
     }
