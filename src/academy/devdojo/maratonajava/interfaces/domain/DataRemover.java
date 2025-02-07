@@ -1,4 +1,5 @@
 package academy.devdojo.maratonajava.interfaces.domain;
 
-public class DataRemover {
+public interface DataRemover {
+    void remove();
 }
