@@ -10,9 +10,9 @@ public class teste {
 
         Tomate tomate1 = new Tomate("Tomate do fortnite", 10L);
 
-        CalculaImposto.calcularImpostoComputador(computador1);
+        CalculaImposto.calcularImposto(computador1);
 
-        CalculaImposto.calcularImpostoTomate(tomate1);
+        CalculaImposto.calcularImposto(tomate1);
 
 
     }
