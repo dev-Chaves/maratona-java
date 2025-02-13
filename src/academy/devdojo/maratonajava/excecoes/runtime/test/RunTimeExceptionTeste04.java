@@ -48,6 +48,17 @@ public class RunTimeExceptionTeste04 {
             e.printStackTrace();
         }
 
+        // As diferenças entre as duas, é que a primeira trata exceção de forma individual, na segunda, como todas exceções são filhas de Exception , as duas throws serão tratadas no e.printStrackTrace()
+
+        try {
+
+            talvezLanceExcecao();
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+
     }
     public static void talvezLanceExcecao() throws SQLException, FileNotFoundException{
 
