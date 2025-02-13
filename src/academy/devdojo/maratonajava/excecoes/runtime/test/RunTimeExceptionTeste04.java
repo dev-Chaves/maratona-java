@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.excecoes.runtime.test;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.EmptyStackException;
 
@@ -40,11 +41,12 @@ public class RunTimeExceptionTeste04 {
 
         try {
             talvezLanceExcecao();
-        }catch (SQLException e){
-            System.out.println("Dentro do sql e");
+        }catch (SQLException | FileNotFoundException e){
+            // Não pode haver exceções da mesma família na mesma linha.
+
+            System.out.println("Dentro do sql exception");
             e.printStackTrace();
-        }catch (FileNotFoundException e){
-            System.out.println("Dentro do File e");
+            System.out.println("Dentro do File exception");
             e.printStackTrace();
         }
 
