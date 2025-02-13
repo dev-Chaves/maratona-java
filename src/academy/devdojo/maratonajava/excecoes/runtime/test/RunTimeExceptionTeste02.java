@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.excecoes.runtime.test;
 
-public class RunTimeExcepetionTeste02 {
+public class RunTimeExceptionTeste02 {
     public static void main(String[] args) {
 
 
