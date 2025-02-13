@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.excecoes.runtime.test;
 
+import java.io.FileNotFoundException;
+import java.sql.SQLException;
 import java.util.EmptyStackException;
 
 public class RunTimeExceptionTeste04 {
@@ -8,7 +10,7 @@ public class RunTimeExceptionTeste04 {
         try {
 
 
-            throw new EmptyStackException();
+//            throw new EmptyStackException();
 
 //            throw new ArrayIndexOutOfBoundsException();
 //            throw new NullPointerException();
@@ -35,6 +37,19 @@ public class RunTimeExceptionTeste04 {
         }catch (RuntimeException e){
             e.printStackTrace();
         }
+
+        try {
+            talvezLanceExcecao();
+        }catch (SQLException e){
+            System.out.println("Dentro do sql e");
+            e.printStackTrace();
+        }catch (FileNotFoundException e){
+            System.out.println("Dentro do File e");
+            e.printStackTrace();
+        }
+
+    }
+    public static void talvezLanceExcecao() throws SQLException, FileNotFoundException{
 
     }
 }
