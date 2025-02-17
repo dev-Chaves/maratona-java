@@ -1,8 +1,7 @@
-package academy.devdojo.maratonajava.datas.localDate;
+package academy.devdojo.maratonajava.datas.dateLocal;
 
 import java.text.DateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 
 public class localDate {
