@@ -7,13 +7,13 @@ public class SpringTeste02 {
 
         System.out.println(chaves.charAt(5));
 
-        for (int i=0; i<chaves.length(); i++) {
-            if (c.equals("a")) {
-                System.out.println("Achamos A");
-            } else {
-                System.out.println("Passou");
-            }
-        }
+//        for (int i=0; i<chaves.length(); i++) {
+//            if (c.equals("a")) {
+//                System.out.println("Achamos A");
+//            } else {
+//                System.out.println("Passou");
+//            }
+//        }
 
 
 
