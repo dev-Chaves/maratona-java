@@ -19,9 +19,13 @@ public class listTeste01 {
         //tentando usar stream
         List<Integer> teste = new ArrayList<>();
 
+
+
         teste.add(1);
         teste.add(2);
         teste.add(3);
+
+        System.out.println(teste.toString());
 
         // testar stream depois
     }

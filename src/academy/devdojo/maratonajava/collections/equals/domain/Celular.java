@@ -13,6 +13,14 @@ public class Celular {
         return serie != null && serie.equals(celular.serie);
     }
 
+    @Override
+    public String toString() {
+        return "Celular{" +
+                "serie='" + serie + '\'' +
+                ", nome='" + nome + '\'' +
+                '}';
+    }
+
     public Celular(String serie, String nome) {
         this.serie = serie;
         this.nome = nome;
