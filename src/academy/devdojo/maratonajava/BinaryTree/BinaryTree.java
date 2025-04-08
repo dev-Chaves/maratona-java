@@ -21,7 +21,4 @@ public class BinaryTree {
     public void add(int value){
         root = addRecursive(root, value);
     }
-
-
-
 }
